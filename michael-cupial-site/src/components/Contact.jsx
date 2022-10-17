@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useLocation } from "react-router";
 
 const FORM_ENDPOINT =
-  "https://public.herotofu.com/v1/b7ff7110-4d35-11ed-8970-6943e4ac8982";
+  "https://public.herotofu.com/v1/a2884dc0-4e52-11ed-8970-6943e4ac8982";
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -20,10 +20,10 @@ const Contact = () => {
 
   if (submitted) {
     return (
-      <>
+      <div class="thankYou">
         <div className="text-2xl">Thank you!</div>
         <div className="text-md">We'll be in touch soon.</div>
-      </>
+      </div>
     );
   }
 
