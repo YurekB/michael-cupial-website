@@ -1,4 +1,12 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router";
+
 const Home = () => {
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <div class="Home">
       <div class="big3">
