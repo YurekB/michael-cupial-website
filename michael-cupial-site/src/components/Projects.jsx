@@ -24,7 +24,7 @@ const Projects = () => {
             <img src="/images/p2.png" alt="proj2" />
             <p>
               <b>Cranbrook Road</b> - Single storey rear extensions to open plan
-              ground floor and general refurbishment works in Chiswick Londond
+              ground floor and general refurbishment works in Chiswick London
             </p>
           </li>
           <li>
